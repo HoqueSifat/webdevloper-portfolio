@@ -102,7 +102,7 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -115,10 +115,27 @@ main{
     background: #FFF8F3;
     margin: 130px 0px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-description{
+    font-weight: bolder;
+    color: #474747;
+    margin-top: 5px;
+}
+.info-title{
+   color: #757575;
+   margin-bottom: 0px;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
